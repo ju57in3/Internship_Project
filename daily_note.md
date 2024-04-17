@@ -45,3 +45,12 @@ For the second option : We need to check on each microcontroller boards their ty
 ![STM32L476RG Nucleo Pinout](image-1.png "STM32L476RG Nucleo Pinout")
 ### BOOSTXL-EDUMKII Pinout
 ![BOOSTXL-EDUMKII Pinout](image-2.png "BOOSTXL-EDUMKII Pinout")
+
+### Tableau
+| Microcontroller Boards | Pinout |
+| :--------------------: | :----: |
+| MSP432P401R LaunchPad  |        |
+| MSP432E401Y LaunchPad  |        |
+| TM4C129E LaunchPad     |        |
+| STM32F407G-DISC1       |        |
+| STM32L476RG Nucleo     |        |
