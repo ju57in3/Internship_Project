@@ -48,22 +48,22 @@ For the second option : We need to check on each microcontroller boards their ty
 
 ## 18/04/2024
 ### STM32 Nucleo Table
-| Microcontroller Boards          |                      Pinout                      | Compatible |
-| :------------------------------ | :----------------------------------------------: | :--------: |
-| NUCLEO-F030R8                   | ![NUCLEO-F030R8](image-3.png)                    | **NO** : (9)NC -> PF6, (11)NC -> PF7, PH0 -> PF0, PH1 -> PF1, (36)NC -> PF5, (38)NC -> PF4 |
-| NUCLEO-F070RB                   | ![NUCLEO-F070RB](image-4.png)                    | **NO** : PH0 -> PF0, PH1 -> PF1, VBAT -> VDD |
-| NUCLEO-F072RB                   | ![NUCLEO-F072RB](image-5.png)                    | **NO** : PH0 -> PF0, PH1 -> PF1 |
-| NUCLEO-F091RC                   | ![NUCLEO-F091RC](image-6.png)                    | **NO** : BOOT0 -> PF0-BOOT0, PH0 -> PF0, PH1 -> PF1 |
-| NUCLEO-F103RB                   | ![NUCLEO-F103RB](image-7.png)                    | **NO** : PH0 -> PD0, PH1 -> PD1 |
-| NUCLEO-F302R8                   | ![NUCLEO-F302R8](image-8.png)                    | **NO** : PH0 -> PF0, PH1 -> PF1, PA5 <-> PB13, PA6 <-> PB14, PA7 <-> PB15 |
-| NUCLEO-F303RE                   | ![NUCLEO-F303RE](image-9.png)                    | **NO** : PH0 -> PF0, PH1 -> PF1 |
-| NUCLEO-F334R8                   | ![NUCLEO-F334R8](image-10.png)                   | **NO** : PH0 -> PF0, PH1 -> PF1 |
-| NUCLEO-F401RE                   | ![NUCLEO-F401RE](image-11.png)                   | **NO** : PB11 -> NC |
-| NUCLEO-F411RE                   | ![NUCLEO-F411RE](image-12.png)                   | **NO** : PB11 -> NC |
-| NUCLEO-L053R8                   | ![NUCLEO-L053R8](image-13.png)                   | **NO** : VBAT -> VLCD |
-| NUCLEO-L073RZ and NUCLEO-L010RB | ![NUCLEO-L073RZ and NUCLEO-L010RB](image-14.png) | **NO** : ~~BOOT0~~, VBAT -> VLCD |
-| NUCLEO-L152RE                   | ![NUCLEO-L152RE](image-15.png)                   | **NO** : VBAT -> VLCD |
-| NUCLEO-L452RE                   | ![NUCLEO-L452RE](image-16.png)                   | **YES** |
-| **NUCLEO-L476RG**               | ![NUCLEO-L476RG](image-17.png)                   | **YES** |
-| NUCLEO-F446RE                   | ![NUCLEO-F446RE](image-18.png)                   | **NO** : PB11 -> NC |
-| NUCLEO-F410RB                   | ![NUCLEO-F410RB](image-19.png)                   | **NO** : PD2 -> PB11, PB11 -> NC |
+| Microcontroller Boards          |                    Pinout                    |                            Pin Change                            |
+| :------------------------------ | :------------------------------------------: | :--------------------------------------------------------------- |
+| **NUCLEO-L476RG**               | ![NUCLEO-L476RG](image-17.png)               |                                                                  |
+| NUCLEO-L452RE                   | ![NUCLEO-L452RE](image-16.png)               |                                                                  |
+| NUCLEO-F030R8                   | ![NUCLEO-F030R8](image-3.png)                | (9)NC -> PF6, (11)NC -> PF7, PH0 -> PF0, PH1 -> PF1, (36)NC -> PF5, (38)NC -> PF4 |
+| NUCLEO-F070RB                   | ![NUCLEO-F070RB](image-4.png)                | PH0 -> PF0, PH1 -> PF1, VBAT -> VDD                              |
+| NUCLEO-F072RB                   | ![NUCLEO-F072RB](image-5.png)                | PH0 -> PF0, PH1 -> PF1                                           |
+| NUCLEO-F091RC                   | ![NUCLEO-F091RC](image-6.png)                | BOOT0 -> PF0-BOOT0, PH0 -> PF0, PH1 -> PF1                       |
+| NUCLEO-F103RB                   | ![NUCLEO-F103RB](image-7.png)                | PH0 -> PD0, PH1 -> PD1                                           |
+| NUCLEO-F302R8                   | ![NUCLEO-F302R8](image-8.png)                | PH0 -> PF0, PH1 -> PF1, PA5 <-> PB13, PA6 <-> PB14, PA7 <-> PB15 |
+| NUCLEO-F303RE                   | ![NUCLEO-F303RE](image-9.png)                | PH0 -> PF0, PH1 -> PF1                                           |
+| NUCLEO-F334R8                   | ![NUCLEO-F334R8](image-10.png)               | PH0 -> PF0, PH1 -> PF1                                           |
+| NUCLEO-F401RE                   | ![NUCLEO-F401RE](image-11.png)               | PB11 -> NC                                                       |
+| NUCLEO-F411RE                   | ![NUCLEO-F411RE](image-12.png)               | PB11 -> NC                                                       |
+| NUCLEO-L053R8                   | ![NUCLEO-L053R8](image-13.png)               | VBAT -> VLCD                                                     |
+| NUCLEO-L073RZ and NUCLEO-L010RB | ![NUCLEO-L073RZ and NUCLEO-L010RB](image-14.png) | ~~BOOT0~~, VBAT -> VLCD                                      |
+| NUCLEO-L152RE                   | ![NUCLEO-L152RE](image-15.png)               | VBAT -> VLCD                                                     |
+| NUCLEO-F446RE                   | ![NUCLEO-F446RE](image-18.png)               | PB11 -> NC                                                       |
+| NUCLEO-F410RB                   | ![NUCLEO-F410RB](image-19.png)               | PD2 -> PB11, PB11 -> NC                                          |
