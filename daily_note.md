@@ -46,11 +46,24 @@ For the second option : We need to check on each microcontroller boards their ty
 ### BOOSTXL-EDUMKII Pinout
 ![BOOSTXL-EDUMKII Pinout](image-2.png "BOOSTXL-EDUMKII Pinout")
 
-### Tableau
-| Microcontroller Boards | Pinout |
-| :--------------------: | :----: |
-| MSP432P401R LaunchPad  |        |
-| MSP432E401Y LaunchPad  |        |
-| TM4C129E LaunchPad     |        |
-| STM32F407G-DISC1       |        |
-| STM32L476RG Nucleo     |        |
+## 18/04/2024
+### STM32 Nucleo Table
+| Microcontroller Boards          |                      Pinout                      |
+| :------------------------------ | :----------------------------------------------: |
+| NUCLEO-F030R8                   | ![NUCLEO-F030R8](image-3.png)                    |
+| NUCLEO-F070RB                   | ![NUCLEO-F070RB](image-4.png)                    |
+| NUCLEO-F072RB                   | ![NUCLEO-F072RB](image-5.png)                    |
+| NUCLEO-F091RC                   | ![NUCLEO-F091RC](image-6.png)                    |
+| NUCLEO-F103RB                   | ![NUCLEO-F103RB](image-7.png)                    |
+| NUCLEO-F302R8                   | ![NUCLEO-F302R8](image-8.png)                    |
+| NUCLEO-F303RE                   | ![NUCLEO-F303RE](image-9.png)                    |
+| NUCLEO-F334R8                   | ![NUCLEO-F334R8](image-10.png)                   |
+| NUCLEO-F401RE                   | ![NUCLEO-F401RE](image-11.png)                   |
+| NUCLEO-F411RE                   | ![NUCLEO-F411RE](image-12.png)                   |
+| NUCLEO-L053R8                   | ![NUCLEO-L053R8](image-13.png)                   |
+| NUCLEO-L073RZ and NUCLEO-L010RB | ![NUCLEO-L073RZ and NUCLEO-L010RB](image-14.png) |
+| NUCLEO-L152RE                   | ![NUCLEO-L152RE](image-15.png)                   |
+| NUCLEO-L452RE                   | ![NUCLEO-L452RE](image-16.png)                   |
+| **NUCLEO-L476RG**               | ![NUCLEO-L476RG](image-17.png)                   |
+| NUCLEO-F446RE                   | ![NUCLEO-F446RE](image-18.png)                   |
+| NUCLEO-F410RB                   | ![NUCLEO-F410RB](image-19.png)                   |
