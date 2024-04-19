@@ -67,3 +67,11 @@ For the second option : We need to check on each microcontroller boards their ty
 | NUCLEO-L152RE                   | ![NUCLEO-L152RE](image-15.png)               | VBAT -> VLCD                                                     |
 | NUCLEO-F446RE                   | ![NUCLEO-F446RE](image-18.png)               | PB11 -> NC                                                       |
 | NUCLEO-F410RB                   | ![NUCLEO-F410RB](image-19.png)               | PD2 -> PB11, PB11 -> NC                                          |
+
+In conclusion, only one set of connectors will be needed for the Nucleo boards because there are few pin changes, which implies very few deep switches.
+
+## 19/04/2024
+### LaunchPad Table
+| Microcontroller Boards          |                    Pinout                    |                            Pin Change                            |
+| :------------------------------ | :------------------------------------------: | :--------------------------------------------------------------- |
+| 
