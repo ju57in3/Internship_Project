@@ -68,7 +68,7 @@ For the second option : We need to check on each microcontroller boards their ty
 | NUCLEO-F446RE                   | ![NUCLEO-F446RE](image-18.png)               | PB11 -> NC                                                       |
 | NUCLEO-F410RB                   | ![NUCLEO-F410RB](image-19.png)               | PD2 -> PB11, PB11 -> NC                                          |
 
-In conclusion, only one set of connectors will be needed for the Nucleo boards because there are few pin changes, which implies very few deep switches.
+In conclusion, only one set of connectors will be needed for the Nucleo boards because there are few pin changes, which implies very few dip switches.
 
 ## 19/04/2024
 ### LaunchPad Pinout
@@ -86,8 +86,17 @@ _I discussed with my supervisor about what we should add on the extension board.
 We have different sections for the extansion board that include :
 - Connectors for the microcontrollers
 - BoosterPack
-- ESP32 (_we need to determine which ESP32 we need to select for the schematic._)
+- ESP32
 - UART (USB?)
 - Components (RGB LEDs, push buttons, 7-segments display, etc.)
 - Test points to test the UART, the ESP32, the components, etc.
-- Deep switches
+- Dip switches
+
+#### BoosterPack
+We have a problem with the schematic file :
+![ERRORFILE](image-23.png "error file")
+
+_I'll check with my supervisor tomorrow_
+
+#### 7-segments display and UART
+_I'll check with my supervisor what type of 7-segments display and UART we need_
