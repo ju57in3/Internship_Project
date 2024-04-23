@@ -75,3 +75,9 @@ In conclusion, only one set of connectors will be needed for the Nucleo boards b
 For the MSP432P401R LaunchPad and MSP432E401Y LaunchPad, the pins are very similar, so there would be few changes to make.
 
 _I discussed with my supervisor about what we should add on the extension board. We will need a separate UART from the ESP32 microcontroller, test points for the UART, the LEDs, etc., and implement a debounce system for the push buttons to prevent too many bounces._
+
+## 23/04/2024
+### Arrangement of the different sections of the extension board
+![First Arrangement](image-20.png "First arrangement")
+![Second Arrangement](image-21.png "Second arrangement")
+![Third Arrangement](image-22.png "Third arrangement")
