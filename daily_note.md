@@ -81,3 +81,13 @@ _I discussed with my supervisor about what we should add on the extension board.
 ![First Arrangement](image-20.png "First arrangement")
 ![Second Arrangement](image-21.png "Second arrangement")
 ![Third Arrangement](image-22.png "Third arrangement")
+
+### Schematic
+We have different sections for the extansion board that include :
+- Connectors for the microcontrollers
+- BoosterPack
+- ESP32 (_we need to determine which ESP32 we need to select for the schematic._)
+- UART (USB?)
+- Components (RGB LEDs, push buttons, 7-segments display, etc.)
+- Test points to test the UART, the ESP32, the components, etc.
+- Deep switches
