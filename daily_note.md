@@ -94,6 +94,7 @@ We have different sections for the extansion board that include :
 
 #### BoosterPack
 We have a problem with the schematic file :
+
 ![ERRORFILE](image-23.png "error file")
 
 _I'll check with my supervisor tomorrow_
