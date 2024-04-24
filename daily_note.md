@@ -107,3 +107,6 @@ _I'll check with my supervisor what type of 7-segments display and UART we need_
 - Measure the gaps between each connector to match the positions of the microcontroller pins
 - Knowing the dimensions of each element to properly arrange them on the board and avoid running out of space or taking too much space
 - Knowing roughly the number of components to add (leaving dedicated space)
+
+### Summary
+Today I started the schematic of the extension board. I divided the schematic into different sections for optimal organization. Next time, I need to work on the parts that use dip switches. I also need to determine if we can use multiple UARTs from the microcontrollers, and I need to create a table to reference the different dimensions for the connector positions.
