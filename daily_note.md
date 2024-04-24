@@ -100,3 +100,9 @@ _I'll check with my supervisor tomorrow_
 
 #### 7-segments display and UART
 _I'll check with my supervisor what type of 7-segments display and UART we need_
+
+## 24/04/2024
+### Organization of the board
+- Measure the gaps between each connector to match the positions of the microcontroller pins
+- Knowing the dimensions of each element to properly arrange them on the board and avoid running out of space or taking too much space
+- Knowing roughly the number of components to add (leaving dedicated space)
