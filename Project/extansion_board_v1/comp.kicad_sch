@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "535c05a6-c31a-46d7-a2e7-1c0f545c93b6")
+	(paper "A5")
+	(title_block
+		(title "Components")
+		(date "2024-04-24")
+		(company "UPV")
+		(comment 1 "Hazan Justine")
+	)
+	(lib_symbols)
+	(sheet
+		(at 157.48 19.05)
+		(size 36.83 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "0db88122-40a8-4344-9eed-56cd757b675d")
+		(property "Sheetname" "LEDs Circuit"
+			(at 157.48 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds_circ.kicad_sch"
+			(at 157.48 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "extansion_board_v1"
+				(path "/a96a7e89-6ffd-44e2-ba56-3bdce4bad2e4/8db8efb9-b2d7-4ee7-bfb0-f44e2b538578"
+					(page "3b")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 16.51)
+		(size 36.83 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 1.0000)
+		)
+		(uuid "64268fd8-a707-4579-bcd0-f47145ef9f6f")
+		(property "Sheetname" "Temperature Sensor"
+			(at 17.78 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sens.kicad_sch"
+			(at 17.78 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "extansion_board_v1"
+				(path "/a96a7e89-6ffd-44e2-ba56-3bdce4bad2e4/8db8efb9-b2d7-4ee7-bfb0-f44e2b538578"
+					(page "3c")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 53.34)
+		(size 54.61 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "f7a1759b-e67d-4085-9417-8fe603de1cc5")
+		(property "Sheetname" "Debouncing Circuit"
+			(at 139.7 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "deb_circ.kicad_sch"
+			(at 139.7 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "extansion_board_v1"
+				(path "/a96a7e89-6ffd-44e2-ba56-3bdce4bad2e4/8db8efb9-b2d7-4ee7-bfb0-f44e2b538578"
+					(page "3a")
+				)
+			)
+		)
+	)
+)
