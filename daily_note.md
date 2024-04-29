@@ -113,3 +113,5 @@ Today I started the schematic of the extension board. I divided the schematic in
 
 ## 29/04/2024
 To pick up where we left off, we don't need to use the schematic of the boosterpack; we just need to use connectors like the other microcontrollers. I still need to determine the type of 7-segment display to use. Also, we need to figure out how to route the UART outputs of the microcontrollers to our switch.
+
+_Tomorrow, I need to ask my supervisor if the component chosen for the temperature sensor is suitable. I also need to discuss with him about the UARTs of the Launchpads._
