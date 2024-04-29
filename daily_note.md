@@ -110,3 +110,6 @@ _I'll check with my supervisor what type of 7-segments display and UART we need_
 
 ### Summary
 Today I started the schematic of the extension board. I divided the schematic into different sections for optimal organization. Next time, I need to work on the parts that use dip switches. I also need to determine if we can use multiple UARTs from the microcontrollers, and I need to create a table to reference the different dimensions for the connector positions.
+
+## 29/04/2024
+To pick up where we left off, we don't need to use the schematic of the boosterpack; we just need to use connectors like the other microcontrollers. I still need to determine the type of 7-segment display to use. Also, we need to figure out how to route the UART outputs of the microcontrollers to our switch.
