@@ -131,3 +131,5 @@ Lastly, we need several pins connected to the microcontrollers to connect extern
 ![simulation](image-25.png "Simulation")
 
 In conclusion, we will have the following values for the resistor: 20 kohm and for the capacitor: 0.1 uF
+
+_Tomorrow I need to finish the 7-segment display symbol_
