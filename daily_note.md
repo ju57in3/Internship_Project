@@ -115,3 +115,13 @@ Today I started the schematic of the extension board. I divided the schematic in
 To pick up where we left off, we don't need to use the schematic of the boosterpack; we just need to use connectors like the other microcontrollers. I still need to determine the type of 7-segment display to use. Also, we need to figure out how to route the UART outputs of the microcontrollers to our switch.
 
 _Tomorrow, I need to ask my supervisor if the component chosen for the temperature sensor is suitable. I also need to discuss with him about the UARTs of the Launchpads._
+
+## 30/04/2024
+### Summary
+I discussed with my supervisor that I needed to create the LM335 component myself on KiCad. I also need to conduct a simulation on PSpice for the debounce circuit to determine the values of the resistor and capacitor.
+
+We discussed an issue encountered with the STM32F407G-DISC1, where additional connectors were required for its connection. However, this would occupy space and increase the cost of the extension board. Therefore, we decided to remove this microcontroller.
+
+Also, we talked about the 7-segment display and we agreed to use the HDSP-521E.
+
+Lastly, we need several pins connected to the microcontrollers to connect external components (Analog In, Timer, etc.).
