@@ -125,3 +125,9 @@ We discussed an issue encountered with the STM32F407G-DISC1, where additional co
 Also, we talked about the 7-segment display and we agreed to use the HDSP-521E.
 
 Lastly, we need several pins connected to the microcontrollers to connect external components (Analog In, Timer, etc.).
+
+### Debouncing Circuit Simulation
+![circuit](image-24.png "Debouncing Circuit")
+![simulation](image-25.png "Simulation")
+
+In conclusion, we will have the following values for the resistor: 20 kohm and for the capacitor: 0.1 uF
