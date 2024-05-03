@@ -133,3 +133,17 @@ Lastly, we need several pins connected to the microcontrollers to connect extern
 In conclusion, we will have the following values for the resistor: 20 kohm and for the capacitor: 0.1 uF
 
 _Tomorrow I need to finish the 7-segment display symbol_
+
+## 02/05/2024
+Today, I created the symbol for the 7-segment display. My supervisor sent me an email explaining that I need to multiplex to reduce the number of MCU pins required to drive the 7-segment displays. I started looking into the matter and will address it tomorrow.
+
+## 03/05/2024
+The multiplexing my supervisor asked me to implement consists of replicating something similar to the following schematic :
+
+![Multiplexing](image-26.png "multiplexing")
+
+The drawback with this method is that it includes a PIC16F628A, which requires programming and in the long run may not be the most optimal solution in my opinion. I believe it would be better to use an 8-bit shift register (serial to parallel) such as the 74HC595 because it allows for easy addition of outputs to the microcontroller.
+
+Here is an example circuit with the 74HC595 and a single-digit 7-segment display, you just need to adapt it with our two-digit 7-segment display :
+
+![7-segments Display Circuit](image-27.png "7-segments display circuit")
