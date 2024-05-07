@@ -150,3 +150,4 @@ Here is an example circuit with the 74HC595 and a single-digit 7-segment display
 
 ## 07/05/2024
 Today, I started the connections for the Analog In, SPI, and I2C of the launchpads and nucleos. I found connections for two different UARTs for the Nucleos, one for the ESP32 and one for the test points.
+I had to modify the connections for pin changes and switches because I didn't have the correct number of pins for the nucleos; now the issue is fixed.
