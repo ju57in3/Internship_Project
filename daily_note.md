@@ -153,4 +153,5 @@ Today, I started the connections for the Analog In, SPI, and I2C of the launchpa
 I had to modify the connections for pin changes and switches because I didn't have the correct number of pins for the nucleos; now the issue is fixed.
 
 ## 08/05/2024
-Today I discussed the project progress with my supervisor. For the 7-segment display, I need to stick to the schematic my supervisor sent me. I looked into another model of 7-segment display to use : HS-3461B, which will be much more suitable for the desired setup. Regarding the debounce circuit, he asked me to redo the simulation to clearly see the button bounce. I am gradually progressing with the pin connections of the different microcontrollers.
+Today I discussed the project progress with my supervisor. For the 7-segment display, I need to stick to the schematic my supervisor sent me. I looked into another model of 7-segment display to use : HS-3461B, which will be much more suitable for the desired setup.
+I edited the symbol for the HS-3461B on KiCad because it wasn't in the global library and there was no design file available on the internet; we'll need to address the footprint issue. Regarding the debounce circuit, he asked me to redo the simulation to clearly see the button bounce. I am gradually progressing with the pin connections of the different microcontrollers.
