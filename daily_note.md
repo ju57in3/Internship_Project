@@ -157,6 +157,19 @@ Today I discussed the project progress with my supervisor. For the 7-segment dis
 
 I edited the symbol for the HS-3461B on KiCad because it wasn't in the global library and there was no design file available on the internet; we'll need to address the footprint issue. 
 
-Regarding the debounce circuit, he asked me to redo the simulation to clearly see the button bounce. I am gradually progressing with the pin connections of the different microcontrollers.
+Regarding the debounce circuit, he asked me to redo the simulation to clearly see the button bounce. 
+
+![alt text](image-28.png)
+
+I am gradually progressing with the pin connections of the different microcontrollers.
 
 On the other hand, the setup I had created for the 7-segment display could be used for the LED bar graph board.
+
+## 13/05/2024
+### Questions to ask my supervisor :
+- Can I connect the microcontroller pins to multiple connectors?
+- Should I separate the connectors for the SPI, I2C, and UART pins of the MSP432E401Y microcontroller that are not present on the other microcontrollers?
+- Should I reserve the pins for the 7-segment display?
+- What should I do with the ESP32-C6 DevKit microcontroller?
+- Which pins should be connected to the test points?
+- Where should the push buttons be connected?
