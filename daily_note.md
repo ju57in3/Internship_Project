@@ -173,3 +173,13 @@ On the other hand, the setup I had created for the 7-segment display could be us
 - What should I do with the ESP32-C6 DevKit microcontroller?
 - Which pins should be connected to the test points?
 - Where should the push buttons be connected?
+
+## 15/05/2024
+### Dimensions
+#### Nucleos
+![Nucleos dimensions](image-30.png)
+
+#### MSP432P401R, MSP432E401Y, TM4C129E LaunchPads
+
+#### ESP32-C6 DevKit
+![ESP32 dimensions](image-29.png)
