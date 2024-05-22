@@ -185,4 +185,4 @@ On the other hand, the setup I had created for the 7-segment display could be us
 ![ESP32 dimensions](image-29.png)
 
 ### Schmitt Trigger Buffer Simulation
-![Schmitt Trigger](image-31.png)
+![Schmitt Trigger](image-32.png)
